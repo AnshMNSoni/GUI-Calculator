@@ -27,4 +27,7 @@ This repository contains a basic calculator application built using Python's Tki
   - Evaluating the expression and displaying the result.
 
 ## Contact
-For questions or feedback, reach out to me on [LinkedIn](https://www.linkedin.com/in/ansh-soni/) or open an issue on this repository.
+For questions or feedback, reach out to me on [LinkedIn](https://www.linkedin.com/in/anshmnsoni/) or open an issue on this repository.
+
+## Thankyou
+#### Owner: @ansh.mn.soni
