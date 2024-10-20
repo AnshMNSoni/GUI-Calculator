@@ -96,10 +96,10 @@ add = tk.Button(btns_frame, text="+", width=10, height=3,font=FONT, bd= 10, comm
 
 
 # Fifth row
-zero = tk.Button(btns_frame, text="0", width=24, height=3,font=FONT, bd= 10, command=lambda: button_click(0)).grid(row=4, column=0, columnspan=2)
+zero = tk.Button(btns_frame, text="0", width=10, height=3,font=FONT, bd= 10, command=lambda: button_click(0)).grid(row=4, column=0)
+floordiv = tk.Button(btns_frame, text="//", width=10, height=3,font=FONT, bd= 10, command=lambda: button_click("//")).grid(row=4, column=1)
 point = tk.Button(btns_frame, text=".", width=10, height=3,font=FONT, bd= 10, command=lambda: button_click(".")).grid(row=4, column=2)
 equals = tk.Button(btns_frame, text="=", width=10, height=3, font=FONT, bg=SP_THEME, bd= 10, command=lambda: button_equal()).grid(row=4, column=3)
-
 
 # Run the main event loop
 window.mainloop()
